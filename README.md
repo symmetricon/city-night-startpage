@@ -12,6 +12,8 @@
 
 copy dist folder, place and rename it however you see fit.
 
+use path to ```index.html``` to open it in the browser
+
 see [configure links] for customization 
 
 
