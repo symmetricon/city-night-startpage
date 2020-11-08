@@ -8,6 +8,9 @@
 [image](https://www.pexels.com/photo/people-walking-near-concrete-buildings-1557547/)
 
 
+## browser support
+was just a small project...only really tried it out in firefox
+
 ## Use
 
 copy dist folder, place and rename it however you see fit.
