@@ -71,4 +71,13 @@ see Programming Resources column in screenshot
 }
 ```
 
+## backdrop-filter support for blur effect
+in firefox this feature requires a little digging(doesnt change the page too much without it)
 
+[Look for firefox support](https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter)
+
+need to edit ```about:config``` in firefox
+
+layout.css.backdrop-filter.enabled
+
+gfx.webrender.all
