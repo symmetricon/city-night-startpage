@@ -1,0 +1,143 @@
+$rect-color: rgba(0, 0, 0, 0.8);
+@font-face {
+    font-family: Orbitron400;
+    src: url(../fonts/Orbitron/static/Orbitron-Regular.ttf);
+}
+@font-face {
+    font-family: Orbitron600;
+    src: url(../fonts/Orbitron/static/Orbitron-Bold.ttf);
+}
+@font-face {
+    font-family: PressStart2P400;
+    src: url(../fonts/Press_Start_2P/PressStart2P-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Orbitron400;
+}
+
+
+
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 20vh;
+    background-image: url(../images/neon-city.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: black;
+    overflow: auto;
+    &::after {
+        display: block;
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-color: black;
+        opacity: 0.5;
+        z-index: -1;
+    }
+}
+
+%cxy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%hun {
+    width: 100%;
+    height: 100%;
+}
+
+#clock, #links-container .links-column {
+    color: white;
+}
+
+#clock {
+    display: flex;
+    font-family: PressStart2P400;
+    font-size: 70px;
+    margin-bottom: 40px;
+}
+
+
+
+#search-container {
+    display: flex;
+    align-items: center;
+    .icon {
+        height: 20px;
+        margin-left: 10px;
+        transform: rotateY(180deg);
+        cursor: pointer;
+    }
+    #search-bar {
+        width: 30vw;
+        height: 28px;
+        border: 0px;
+        color: white;
+        padding: 0px 10px;
+        font-family: Orbitron400;
+        caret-color: white;
+        background-color: $rect-color;
+        backdrop-filter: blur(4px);
+        &::placeholder {
+            color: grey;
+        }
+    }
+}
+
+
+#links-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+    .links-column {
+        width: 200px;
+        min-width: 200px;
+        margin-right: 40px;
+        margin-bottom: 40px;
+        &:last-child { 
+            margin-right: 0; 
+        }
+        .category-header {
+            font-family: Orbitron600;
+            font-size: 20px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .link-rect {
+            transition: transform ease 100ms;
+            display: flex;
+            width: 100%;
+            padding: 5px 10px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+            text-decoration: none;
+            color: white;
+            background-color: $rect-color;
+            backdrop-filter: blur(3px);
+            margin-bottom: 10px;
+            &:last-child { 
+                margin: 0; 
+            }
+        }
+    }
+}
+
+// imports
+@import './media-queries'; // needs to be at bottom 

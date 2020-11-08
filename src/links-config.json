@@ -1,0 +1,109 @@
+{
+    "linksData": [
+        {
+            "category": "Network / Self Hosted",
+            "linksArr": [
+                {
+                    "linkName": "Router",
+                    "url": "http://192.168.0.1"
+                },
+                {
+                    "linkName": "Pihole",
+                    "url": "http://192.168.0.19/admin"
+                },
+                {
+                    "linkName": "Portainer",
+                    "url": "http://portainer.homeserver"
+                },
+                {
+                    "linkName": "Nginx Manager",
+                    "url": "http://nginx.homeserver"
+                },
+                {
+                    "linkName": "Hastebin",
+                    "url": "http://hastebin.homeserver"
+                }
+            ]
+        },
+        {
+            "category": "Reddit",
+            "linksArr": [
+                {
+                    "linkName": "r/unixporn",
+                    "url": "https://reddit.com/r/unixporn"
+                },
+                {
+                    "linkName": "r/startpages",
+                    "url": "https://reddit.com/r/startpages"
+                },
+                {
+                    "linkName": "r/homelabs",
+                    "url": "https://reddit.com/r/homelabs"
+                },
+                {
+                    "linkName": "r/cellular_automata",
+                    "url": "https://reddit.com/r/cellular_automata"
+                }
+            ]
+        },
+        {
+            "category": "Online Editors",
+            "linksArr": [
+                {
+                    "linkName": "Codepen",
+                    "url": "https://codepen.io"
+                },
+                {
+                    "linkName": "JS Bin",
+                    "url": "https://jsbin.com"
+                },
+                {
+                    "linkName": "Code Sandbox",
+                    "url": "https://codesandbox.io"
+                },
+                {
+                    "linkName": "JSFiddle",
+                    "url": "https://jsfiddle.net"
+                },
+                {
+                    "linkName": "REPL.IT",
+                    "url": "https://repl.it"
+                }
+            ]
+        },
+        {
+            "category": "Programming Resources",
+            "linksArr": [
+                {
+                    "linkName": "MDN",
+                    "url": "https://developer.mozilla.org"
+                },
+                {
+                    "linkName": "Hoogle",
+                    "url": "https://hoogle.haskell.org"
+                },
+                {
+                    "linkName": "Hacker Noon",
+                    "url": "https://hackernoon.com"
+                }
+            ]
+        },
+        {
+            "category": "Problem Solving Sites",
+            "linksArr": [
+                {
+                    "linkName": "Codewars",
+                    "url": "https://codewars.com/dashboard"
+                },
+                {
+                    "linkName": "Project Euler",
+                    "url": "https://projecteuler.net"
+                },
+                {
+                    "linkName": "Hacker Rank",
+                    "url": "https://hackerrank.com"
+                }
+            ]
+        }
+    ]
+}
