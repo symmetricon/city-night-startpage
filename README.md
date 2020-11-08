@@ -72,12 +72,18 @@ see Programming Resources column in screenshot
 ```
 
 ## backdrop-filter support for blur effect
-in firefox this feature requires a little digging(doesnt change the page too much without it)
+in firefox this feature requires a little digging to get working(doesnt change the page too much without it... the links will just be transparent without the background bluring behind them)
 
 [Look for firefox support](https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter)
 
-need to edit ```about:config``` in firefox
+these need to be set to true in firefox about:config
 
-layout.css.backdrop-filter.enabled
+- layout.css.backdrop-filter.enabled
+- gfx.webrender.all
 
-gfx.webrender.all
+## Dev
+
+start dev server: ```npm run dev```
+
+port and host set in ```.env```
+
