@@ -82,8 +82,9 @@ these need to be set to true in firefox about:config
 - gfx.webrender.all
 
 ## Dev
+install packages: ```npm install```
 
 start dev server: ```npm run dev```
 
-port and host set in ```.env```
+port and host set in: ```.env```
 
